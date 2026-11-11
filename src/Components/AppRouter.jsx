@@ -3,7 +3,8 @@ import Loader from "./loader/Loader";
 
 // Импорты страниц
 import Main from "../Pages/Main/Main"
-import Creation from "../Pages/Creation/Creation"
+import Catalog from "../Pages/Catalog/Catalog"
+import Product from '../Pages/Product/Product';
 
 const AppRouter = () => {
 
@@ -13,7 +14,8 @@ const AppRouter = () => {
 
       {/* menu */}
         <Route path="/" element={<Main />} />
-        <Route path="/creation" element={<Creation />} />
+        <Route path="/catalog" element={<Catalog />} />
+        <Route path="/catalog/:id" element={<Product />} />
 
       {/* 404 */}
       <Route path="*" element={<Navigate to="/" />} />

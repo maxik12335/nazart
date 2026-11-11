@@ -1,0 +1,58 @@
+.section {
+position: relative;
+}
+
+.img {
+  max-width: 50%;
+  flex: 1;
+  object-fit: contain;
+  border-radius: var(--radius-sm);
+  filter: brightness(0.7);
+  transition: var(--transition-base);
+}
+
+.img:hover {
+  filter: brightness(1);
+}
+
+.texts {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-8);
+}
+
+.imgMobyle {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  filter: brightness(0.35);
+}
+
+@media (max-width: 992px) {
+  .texts {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    color: var(--color-text-dark);
+    gap: var(--space-4);
+  }
+
+  .imgMobyle {
+    display: block;
+    z-index: 0;
+    object-fit: cover;
+  }
+
+  .img {
+    display: none;
+  }
+}

@@ -18,6 +18,11 @@ a {
   color: inherit;
 }
 
+button {
+  border: none;
+  outline: none;
+}
+
 :focus {
   outline: none !important;
 }

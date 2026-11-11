@@ -1,0 +1,29 @@
+.btnForDark {
+  padding: var(--space-1) var(--space-2);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  width: fit-content;
+  border-radius: var(--radius-sm);
+  transition: var(--transition-base);
+  cursor: pointer;
+  display: block;
+}
+
+.btnForDark:hover {
+  background-color: #202020;
+  color: var(--color-text-dark);
+}
+
+.btnForLight {
+  padding: var(--space-1) var(--space-2);
+  background-color: #1A1A1A;
+  color: var(--color-background);
+  width: fit-content;
+  border-radius: var(--radius-sm);
+  transition: var(--transition-base);
+  cursor: pointer;
+}
+
+.btnForLight:hover {
+  opacity: 0.7;
+}

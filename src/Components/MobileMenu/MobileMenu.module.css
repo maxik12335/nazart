@@ -19,29 +19,30 @@
   gap: var(--space-2);
 }
 
-.menu {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 100%;
-  gap: 0;
+.icon {
+  width: 30px;
+  height: 30px;
 }
 
-.link {
-  margin-bottom: 15px;
-  padding-bottom: 15px;
+.iconImg {
   width: 100%;
-  border-bottom: 1px solid color-mix(in srgb, var(--color-background-dark) 8%, transparent);
+  height: 100%;
+  object-fit: contain;
 }
 
 .burgerBox {
   display: none;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-a:global(.active){
-  opacity: var(--color-hover-opacity);
+.content {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.tel {
+
 }
 
 @media (max-width: 768px) {
