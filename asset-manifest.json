@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nazart/static/css/main.2f9877c6.css",
-    "main.js": "/nazart/static/js/main.e536c27c.js",
+    "main.css": "/nazart/static/css/main.732e8888.css",
+    "main.js": "/nazart/static/js/main.52e2c3a5.js",
     "static/media/3.png": "/nazart/static/media/3.6d7c6513b864e8b1a58a.png",
     "static/media/4.png": "/nazart/static/media/4.ae4de93a0394745d3094.png",
     "static/media/main-fon.png": "/nazart/static/media/main-fon.6351a1881e1bd5005000.png",
@@ -13,11 +13,11 @@
     "static/media/2.png": "/nazart/static/media/2.ab0157d1f4cd11275756.png",
     "static/media/skafOrPolka.png": "/nazart/static/media/skafOrPolka.15e1a8d8da4a351b7877.png",
     "index.html": "/nazart/index.html",
-    "main.2f9877c6.css.map": "/nazart/static/css/main.2f9877c6.css.map",
-    "main.e536c27c.js.map": "/nazart/static/js/main.e536c27c.js.map"
+    "main.732e8888.css.map": "/nazart/static/css/main.732e8888.css.map",
+    "main.52e2c3a5.js.map": "/nazart/static/js/main.52e2c3a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f9877c6.css",
-    "static/js/main.e536c27c.js"
+    "static/css/main.732e8888.css",
+    "static/js/main.52e2c3a5.js"
   ]
 }
