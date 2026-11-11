@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/nazart/static/css/main.2f9877c6.css",
+    "main.js": "/nazart/static/js/main.e536c27c.js",
+    "static/media/3.png": "/nazart/static/media/3.6d7c6513b864e8b1a58a.png",
+    "static/media/4.png": "/nazart/static/media/4.ae4de93a0394745d3094.png",
+    "static/media/main-fon.png": "/nazart/static/media/main-fon.6351a1881e1bd5005000.png",
+    "static/media/NastenPolka.png": "/nazart/static/media/NastenPolka.06628ffc768036cb54c0.png",
+    "static/media/materials.png": "/nazart/static/media/materials.fdcec68d70e201528a8f.png",
+    "static/media/bereza.png": "/nazart/static/media/bereza.ecdc7f90ec62eccf8ea6.png",
+    "static/media/5.png": "/nazart/static/media/5.2e50239dbe278b0e781e.png",
+    "static/media/1.png": "/nazart/static/media/1.b5cbddd6ac40df35bfb9.png",
+    "static/media/2.png": "/nazart/static/media/2.ab0157d1f4cd11275756.png",
+    "static/media/skafOrPolka.png": "/nazart/static/media/skafOrPolka.15e1a8d8da4a351b7877.png",
+    "index.html": "/nazart/index.html",
+    "main.2f9877c6.css.map": "/nazart/static/css/main.2f9877c6.css.map",
+    "main.e536c27c.js.map": "/nazart/static/js/main.e536c27c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f9877c6.css",
+    "static/js/main.e536c27c.js"
+  ]
+}
