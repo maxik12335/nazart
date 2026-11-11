@@ -4,7 +4,7 @@ import img from '../../assets/NastenPolka.png'
 
 const NastenPolka = () => {
   return (
-      <div className='section line-dark'>
+      <div className='section--dark line-dark'>
         <div className="container">
 
           <div className="content">

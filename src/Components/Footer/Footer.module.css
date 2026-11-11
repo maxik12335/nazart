@@ -8,3 +8,10 @@
   justify-content: space-between;
   padding: var(--space-4) 20px;
 }
+
+@media (max-width: 576px) {
+  .container {
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+}

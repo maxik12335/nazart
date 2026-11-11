@@ -4,7 +4,7 @@ import img from '../../assets/bereza.png'
 
 const Bereza = () => {
   return (
-       <div className={`${classes.section} section line-dark}`}>
+       <div className={`${classes.section} section`}>
         <img className={classes.imgMobyle} src={img} alt="main-fon" />
         <div className="container">
 

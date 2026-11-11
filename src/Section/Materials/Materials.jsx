@@ -4,7 +4,7 @@ import img from '../../assets/materials.png'
 
 const Materials = () => {
   return (
-      <div className={`${classes.section} section line-dark}`}>
+      <div className={`${classes.section} section line-dark`}>
         <img className={classes.imgMobyle} src={img} alt="main-fon" />
         <div className="container">
 

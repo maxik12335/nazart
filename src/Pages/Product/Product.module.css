@@ -34,7 +34,11 @@
 }
 
 
-
+.tel {
+  text-align: center;
+  /* width: 100%;
+  display: block; */
+}
 
 
 @media (max-width: 768px) {

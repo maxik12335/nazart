@@ -19,7 +19,7 @@ const Navbar = () => {
           </Btn>
           
           <div className={classes.contacts}>
-            <a className={`${classes.tel} hover`} href="tel:+79255087785">+7 925 508 77 85</a>
+            <a className={`${classes.tel} text-sm hover`} href="tel:+79255087785">+7 925 508 77 85</a>
           
           
             <div className={classes.media}>

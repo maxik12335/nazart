@@ -18,6 +18,7 @@ const Product = () => {
           <Slider className={classes.slider} images={product.images} />
 
           <div className={classes.body}>
+            <p className={classes.tel}>для заказа звоните по номеру <a className='bold hover' href="tel:+79255087785">+7 925 508 77 85</a></p>
             <h2 className='h2'>{product.name}</h2>
 
             <div className={classes.texts}>
