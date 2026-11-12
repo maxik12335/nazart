@@ -1,7 +1,7 @@
 import classes from './Materials.module.css'
 import Btn from '../../Components/UI/Btn/Btn'
 
-import img from '../../assets/materials.png'
+import img from '../../assets/catalog/tovar_5/5.png'
 
 const Materials = () => {
   return (

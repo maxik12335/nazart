@@ -1,7 +1,7 @@
 import classes from './ReleasProjects.module.css'
 import Btn from '../../Components/UI/Btn/Btn'
 
-import img from '../../assets/ReleasProjects/1.png'
+import img from '../../assets/catalog/tovar_9/1.png'
 
 const ReleasProjects = () => {
   return (
