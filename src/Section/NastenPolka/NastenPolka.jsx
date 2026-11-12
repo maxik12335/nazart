@@ -7,14 +7,14 @@ const NastenPolka = () => {
       <div className='section--dark line-dark'>
         <div className="container">
 
-          <div className="content">
-            <div className={classes.content}>
+          <div className={`${classes.content} content`}>
+            <div className={classes.texts}>
               <p className='text-base'>
-                Также мы делаем настенные полки, для них мы используем навесы фирмы Italiana Feramenta, выдерживающие 150кг на пару.Вы можете полностью положиться на надежность крепления полок к стене.
+                Также мы делаем настенные полки, для них мы используем навесы фирмы <span className='bold'>Italiana Feramenta</span>, выдерживающие 150кг на пару.Вы можете полностью положиться на надежность крепления полок к стене.
               </p>
-
-              <img className={classes.img} src={img} alt="img 1" />
             </div>
+
+            <img className={classes.img} src={img} alt="img 1" />
           </div>
 
         </div>

@@ -6,6 +6,11 @@
   position: relative;
 }
 
+.texts {
+  display: grid;
+  gap: var(--space-2);
+}
+
 .content {
   display: flex;
   align-items: center;
@@ -47,6 +52,7 @@
     display: block;
     z-index: 0;
     object-fit: cover;
+    object-position: right;
   }
 
   .img {
@@ -56,7 +62,6 @@
   .texts {
     position: relative;
     z-index: 1;
-    display: grid;
     color: var(--color-text-dark);
     gap: var(--space-4);
   }

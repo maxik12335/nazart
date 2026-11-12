@@ -30,7 +30,7 @@ const MobileMenu = () => {
             <div className={classes.content}>
               <h3 className='h3'>Мебель из дерева на заказ</h3>
               <a className={`${classes.tel} text-sm `} href="tel:+79255087785">+7 925 508 77 85</a>
-              <Btn isColor={'light'} link={'/catalog'} onClick={() => setIsOpen(null)}>
+              <Btn isColor={'navbar'} link={'/catalog'} onClick={() => setIsOpen(null)}>
                 каталог
               </Btn>
             </div>

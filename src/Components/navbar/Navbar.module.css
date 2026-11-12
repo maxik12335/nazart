@@ -48,4 +48,8 @@
   }
 }
 
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+  .navbar {
+    background: color-mix(in srgb, var(--color-background) 48%, transparent);
+  }
+}

@@ -1,29 +1,51 @@
-.btnForDark {
-  padding: var(--space-1) var(--space-2);
-  background-color: var(--color-background);
-  color: var(--color-text);
-  width: fit-content;
+:root {
+  --padding: var(--space-2) var(--space-4);
+  --color-light: #cdcdcd;
+  --color-dark: var(--color-text);
+}
+
+.btn {
   border-radius: var(--radius-sm);
   transition: var(--transition-base);
   cursor: pointer;
   display: block;
+  text-align: center;
 }
 
-.btnForDark:hover {
-  background-color: #202020;
-  color: var(--color-text-dark);
+.btn:hover {
+  opacity: var(--color-hover-opacity);
+  box-shadow: 0 0px 12px rgba(255, 255, 255, 0.06);
 }
 
-.btnForLight {
+.dark {
+  padding: var(--space-2) var(--space-4);
+  background-color: #292929;
+  color: var(--color-background);
+  min-width: 200px;
+  width: fit-content;
+}
+
+.light {
+  padding: var(--space-2) var(--space-4);
+  background-color: #1e1e1e;
+  color: white;
+  min-width: 200px;
+  width: fit-content;
+}
+
+.navbar {
   padding: var(--space-1) var(--space-2);
-  background-color: #1A1A1A;
+  background-color: #292929;
   color: var(--color-background);
   width: fit-content;
-  border-radius: var(--radius-sm);
-  transition: var(--transition-base);
-  cursor: pointer;
 }
 
-.btnForLight:hover {
-  opacity: 0.7;
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    background-color: #161616;
+  }
 }

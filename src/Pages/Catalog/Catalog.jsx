@@ -23,7 +23,7 @@ const Catalog = () => {
 
                   <div className={classes.itemFooter}>
                     <h3 className='text-sm'>{item.name}</h3>
-                    <Btn link={`/catalog/${item.id}`}>
+                    <Btn isColor={'navbar'} link={`/catalog/${item.id}`}>
                       {formatPrice(item.price)}
                     </Btn>
                   </div>

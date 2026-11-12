@@ -1,8 +1,3 @@
-.section {
-position: relative;
-}
-
-
 .img {
   max-width: 50%;
   flex: 1;
@@ -28,33 +23,12 @@ position: relative;
   gap: var(--space-8);
 }
 
-.imgMobyle {
-  display: none;
-  position: absolute;
-  left: 0;
-  top: 0;
-  max-width: 100%;
-  height: 100%;
-  filter: brightness(0.4);
-}
-
-
-@media (max-width: 992px) {
-  .texts {
-    position: relative;
-    z-index: 1;
-    display: grid;
-    color: var(--color-text-dark);
-    gap: var(--space-4);
-  }
-
-  .imgMobyle {
-    display: block;
-    z-index: 0;
-    object-fit: cover;
-  }
+@media (max-width: 768px) {
 
   .img {
     display: none;
+  }
+  .texts {
+    gap: var(--space-4);
   }
 }

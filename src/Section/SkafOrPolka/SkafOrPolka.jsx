@@ -1,11 +1,10 @@
 import classes from './SkafOrPolka.module.css'
-
+import Btn from '../../Components/UI/Btn/Btn'
 import img from '../../assets/skafOrPolka.png'
 
 const SkafOrPolka = () => {
   return (
-      <div className={`${classes.section} section line-dark}`}>
-        <img className={classes.imgMobyle} src={img} alt="main-fon" />
+      <div className='section line-light'>
         <div className="container">
 
           <div className={`${classes.content} content`}>
@@ -22,6 +21,10 @@ const SkafOrPolka = () => {
               <p className='text-base'>
                 Полученные комплекты можно использовать в качестве книжных шкафов и стеллажей, арочных библиотек, витрин для коллекционных предметов, ТВ-тумб.
               </p>
+
+              <Btn isColor={'light'} link={'/catalog'}>
+                Галерея изделий
+              </Btn>
             </div>
 
             <img className={classes.img} src={img} alt="main-fon" />

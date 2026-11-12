@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className={classes.desctopMenu}>
           <NavLink to={'/'} className="h3">Nazart</NavLink>
 
-          <Btn isColor={'light'} link={'/catalog'}>
+          <Btn isColor={'navbar'} link={'/catalog'}>
             каталог
           </Btn>
           

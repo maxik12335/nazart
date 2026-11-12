@@ -1,11 +1,11 @@
 import classes from './Materials.module.css'
+import Btn from '../../Components/UI/Btn/Btn'
 
 import img from '../../assets/materials.png'
 
 const Materials = () => {
   return (
-      <div className={`${classes.section} section line-dark`}>
-        <img className={classes.imgMobyle} src={img} alt="main-fon" />
+      <div className='section--dark line-dark'>
         <div className="container">
 
           <div className={`${classes.content} content`}>
@@ -21,6 +21,10 @@ const Materials = () => {
               <p className='text-base'>
                 Мебель из бука или дуба, при соблюдении условий эксплуатации, прослужит вам не один десяток лет.
               </p>
+
+              <Btn isColor={'light'} link={'/catalog'}>
+                Галерея изделий
+              </Btn>
             </div>
 
             <img className={classes.img} src={img} alt="main-fon" />

@@ -1,8 +1,43 @@
 .content {
-  display: grid;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
   gap: var(--space-8);
 }
 
 .img {
+  max-width: 50%;
+  flex: 1;
+  object-fit: contain;
+  border-radius: var(--radius-sm);
+  filter: brightness(0.7);
+  transition: var(--transition-base);
+}
+
+.img:hover {
+  filter: brightness(1);
+}
+
+.texts {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.img {
   width: 100%;
+}
+
+@media (max-width: 992px) {
+  .texts {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    color: var(--color-text-dark);
+    gap: var(--space-4);
+  }
+  
+  .img {
+    display: none;
+  }
 }
