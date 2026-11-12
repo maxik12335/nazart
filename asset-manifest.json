@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/nazart/static/css/main.732e8888.css",
-    "main.js": "/nazart/static/js/main.52e2c3a5.js",
-    "static/media/3.png": "/nazart/static/media/3.6d7c6513b864e8b1a58a.png",
-    "static/media/4.png": "/nazart/static/media/4.ae4de93a0394745d3094.png",
-    "static/media/main-fon.png": "/nazart/static/media/main-fon.6351a1881e1bd5005000.png",
+    "main.css": "/nazart/static/css/main.6b885387.css",
+    "main.js": "/nazart/static/js/main.ca9e25e7.js",
+    "static/media/3.png": "/nazart/static/media/3.1b3795f74fab3799c81f.png",
+    "static/media/4.png": "/nazart/static/media/4.02172cdeb80645aeed44.png",
     "static/media/NastenPolka.png": "/nazart/static/media/NastenPolka.06628ffc768036cb54c0.png",
     "static/media/materials.png": "/nazart/static/media/materials.fdcec68d70e201528a8f.png",
     "static/media/bereza.png": "/nazart/static/media/bereza.ecdc7f90ec62eccf8ea6.png",
     "static/media/5.png": "/nazart/static/media/5.2e50239dbe278b0e781e.png",
-    "static/media/1.png": "/nazart/static/media/1.b5cbddd6ac40df35bfb9.png",
+    "static/media/1.png": "/nazart/static/media/1.cc985a74dd73d0f9587d.png",
     "static/media/2.png": "/nazart/static/media/2.ab0157d1f4cd11275756.png",
     "static/media/skafOrPolka.png": "/nazart/static/media/skafOrPolka.15e1a8d8da4a351b7877.png",
     "index.html": "/nazart/index.html",
-    "main.732e8888.css.map": "/nazart/static/css/main.732e8888.css.map",
-    "main.52e2c3a5.js.map": "/nazart/static/js/main.52e2c3a5.js.map"
+    "main.6b885387.css.map": "/nazart/static/css/main.6b885387.css.map",
+    "main.ca9e25e7.js.map": "/nazart/static/js/main.ca9e25e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.732e8888.css",
-    "static/js/main.52e2c3a5.js"
+    "static/css/main.6b885387.css",
+    "static/js/main.ca9e25e7.js"
   ]
 }
